@@ -25,7 +25,7 @@
     <nav class="nav" aria-label="Primary navigation">
       <a href="#work">Work</a>
       <a href="#about">About</a>
-      <a href="mailto:hello@example.com">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <div class="availability">
@@ -189,11 +189,33 @@
       </div>
     </section>
 
-    <section class="contact shell">
-      <p class="mono">Have a project, role or collaboration in mind?</p>
-      <a class="contact__link" href="mailto:hello@example.com">
-        Let's talk <span>↗</span>
-      </a>
+    <section class="contact shell" id="contact">
+      <div class="section-heading">
+        <span class="mono">Contact</span>
+        <span class="mono">Get in touch</span>
+      </div>
+
+      <div class="contact__intro">
+        <p>For work, collaborations<br>or just a conversation.</p>
+      </div>
+
+      <div class="contact__details">
+        <button class="contact-row copy-contact" type="button"
+                data-copy="henrik.murer.gystad@hotmail.no"
+                aria-label="Copy email address">
+          <span class="contact-row__label mono">Email</span>
+          <span class="contact-row__value">henrik.murer.gystad@hotmail.no</span>
+          <span class="contact-row__action mono">Copy</span>
+        </button>
+
+        <button class="contact-row copy-contact" type="button"
+                data-copy="+4791613388"
+                aria-label="Copy phone number">
+          <span class="contact-row__label mono">Phone</span>
+          <span class="contact-row__value">+47 916 13 388</span>
+          <span class="contact-row__action mono">Copy</span>
+        </button>
+      </div>
     </section>
   </main>
 

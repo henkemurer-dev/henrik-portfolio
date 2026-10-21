@@ -70,3 +70,25 @@ function drawNoise() {
   requestAnimationFrame(drawNoise);
 }
 drawNoise();
+
+
+// Contact rows copy details instead of opening external apps.
+document.querySelectorAll(".copy-contact").forEach((row) => {
+  row.addEventListener("click", async () => {
+    const value = row.dataset.copy;
+    const action = row.querySelector(".contact-row__action");
+
+    try {
+      await navigator.clipboard.writeText(value);
+      row.classList.add("is-copied");
+      action.textContent = "Copied";
+
+      window.setTimeout(() => {
+        row.classList.remove("is-copied");
+        action.textContent = "Copy";
+      }, 1600);
+    } catch {
+      action.textContent = value;
+    }
+  });
+});
