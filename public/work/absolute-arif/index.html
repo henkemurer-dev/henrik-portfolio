@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Absolute Arif — Henrik Gystad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/styles.css" />
+  <style>
+    .case-nav {height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .case-hero {padding:54px 0 80px}
+    .case-kicker{color:var(--muted);display:flex;justify-content:space-between}
+    .case-title{font-size:clamp(76px,14vw,210px);letter-spacing:-.085em;line-height:.8;font-weight:500;margin:100px 0 70px}
+    .case-info{display:grid;grid-template-columns:1fr 1fr;gap:10vw;border-top:1px solid var(--line);padding-top:24px}
+    .case-lead{font-size:clamp(24px,2.7vw,42px);line-height:1.12;letter-spacing:-.04em;margin:0}
+    .case-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;color:#aaa9a3}
+    .case-meta span{display:block;color:#5f5e59;margin-bottom:10px}
+    .case-media{width:100%;min-height:82vh;display:grid;place-items:center;overflow:hidden}
+    .case-media--hero{background:linear-gradient(135deg,#4a22ff,#ff4cb4 50%,#ff7a00)}
+    .case-media--hero strong{font-size:clamp(100px,20vw,320px);letter-spacing:-.09em;transform:rotate(-8deg)}
+    .case-media--dark{background:#121212;min-height:70vh}
+    .case-media--dark p{max-width:860px;font-size:clamp(40px,6vw,92px);letter-spacing:-.055em;line-height:.98;margin:0;padding:40px}
+    .case-next{min-height:62vh;display:flex;flex-direction:column;justify-content:center}
+    .case-next a{font-size:clamp(70px,11vw,160px);letter-spacing:-.075em;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+    @media(max-width:900px){.case-title{margin:70px 0 50px}.case-info{grid-template-columns:1fr;gap:45px}.case-meta{grid-template-columns:1fr 1fr}.case-media{min-height:58vh}}
+  </style>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><div class="ambient__orb ambient__orb--a"></div><div class="ambient__orb ambient__orb--b"></div></div>
+  <nav class="case-nav shell mono">
+    <a href="../../index.html">← Henrik Gystad</a>
+    <span>Selected work / 01</span>
+  </nav>
+
+  <main>
+    <section class="case-hero shell">
+      <div class="case-kicker mono"><span>Art Direction / Design</span><span>2026</span></div>
+      <h1 class="case-title">Absolute<br>Arif</h1>
+      <div class="case-info">
+        <p class="case-lead">A compilation identity built from fragments, symbols and visual references across an artist's catalogue.</p>
+        <div class="case-meta mono">
+          <p><span>Role</span>Design<br>Art direction</p>
+          <p><span>Output</span>Artwork<br>Campaign assets</p>
+          <p><span>Client</span>Replace with<br>actual credit</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-media case-media--hero">
+      <strong>ARIF</strong>
+    </section>
+
+    <section class="case-media case-media--dark">
+      <p>The case-study template is intentionally simple: one strong idea, concise context and large visual sequences.</p>
+    </section>
+
+    <section class="case-next shell">
+      <p class="mono">Next project</p>
+      <a href="../../index.html#work">Julemusikk <span>↗</span></a>
+    </section>
+  </main>
+</body>
+</html>

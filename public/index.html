@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Henrik Gystad — Designer & Creative working across visual identity, motion, campaigns, digital and 3D." />
+  <title>Henrik Gystad — Designer & Creative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--a"></div>
+    <div class="ambient__orb ambient__orb--b"></div>
+    <canvas id="noiseCanvas"></canvas>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Henrik Gystad home">
+      <span>HG</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="mailto:hello@example.com">Contact</a>
+    </nav>
+
+    <div class="availability">
+      <span class="availability__dot"></span>
+      Oslo / Drammen
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero__eyebrow mono reveal">
+        <span>Designer / Creative</span>
+        <span>Visual systems · Motion · Digital · 3D</span>
+      </div>
+
+      <h1 class="hero__title reveal">
+        I make visual work<br>
+        <span class="hero__title-muted">that moves.</span>
+      </h1>
+
+      <div class="hero__bottom reveal">
+        <p class="hero__intro">
+          Multidisciplinary designer creating identities, campaigns,
+          digital experiences, motion and experimental visuals.
+        </p>
+        <a class="round-link" href="#work" aria-label="View selected work">
+          <span>View work</span>
+          <span class="round-link__arrow">↘</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="work shell" id="work">
+      <div class="section-heading">
+        <span class="mono">Selected work</span>
+        <span class="mono">2023—2026</span>
+      </div>
+
+      <div class="project-list">
+        <a class="project project--one" href="work/absolute-arif/index.html" data-preview="one">
+          <div class="project__index mono">01</div>
+          <div class="project__main">
+            <h2>Absolute Arif</h2>
+            <div class="project__meta mono">
+              <span>Art Direction</span>
+              <span>Design</span>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="project__arrow">↗</div>
+          <div class="project__preview" aria-hidden="true">
+            <div class="preview-art preview-art--one">
+              <span>ABSOLUTE</span>
+              <strong>ARIF</strong>
+            </div>
+          </div>
+        </a>
+
+        <a class="project project--two" href="#" data-preview="two">
+          <div class="project__index mono">02</div>
+          <div class="project__main">
+            <h2>Julemusikk</h2>
+            <div class="project__meta mono">
+              <span>Brand System</span>
+              <span>Motion</span>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="project__arrow">↗</div>
+          <div class="project__preview" aria-hidden="true">
+            <div class="preview-art preview-art--two">
+              <span>JUL</span>
+              <span class="snowflake">✦</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project project--three" href="#" data-preview="three">
+          <div class="project__index mono">03</div>
+          <div class="project__main">
+            <h2>VANTA S1</h2>
+            <div class="project__meta mono">
+              <span>Concept Film</span>
+              <span>AI / 3D</span>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="project__arrow">↗</div>
+          <div class="project__preview" aria-hidden="true">
+            <div class="preview-art preview-art--three">
+              <div class="car-line"></div>
+              <span>VANTA / S1</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project project--four" href="#" data-preview="four">
+          <div class="project__index mono">04</div>
+          <div class="project__main">
+            <h2>Staysman Vinyl</h2>
+            <div class="project__meta mono">
+              <span>Editorial</span>
+              <span>Print</span>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="project__arrow">↗</div>
+          <div class="project__preview" aria-hidden="true">
+            <div class="preview-art preview-art--four">
+              <div class="vinyl"></div>
+              <span>STAYSMAN</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project project--five" href="#" data-preview="five">
+          <div class="project__index mono">05</div>
+          <div class="project__main">
+            <h2>Chrome Rose</h2>
+            <div class="project__meta mono">
+              <span>3D</span>
+              <span>Motion Study</span>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="project__arrow">↗</div>
+          <div class="project__preview" aria-hidden="true">
+            <div class="preview-art preview-art--five">
+              <div class="rose-orbit rose-orbit--1"></div>
+              <div class="rose-orbit rose-orbit--2"></div>
+              <div class="rose-core"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="about shell" id="about">
+      <div class="section-heading">
+        <span class="mono">Profile</span>
+        <span class="mono">Based in Norway</span>
+      </div>
+
+      <div class="about__grid">
+        <p class="about__statement">
+          I work between <em>design</em>, <em>motion</em> and
+          <em>technology</em> — building visual ideas that can live
+          across a cover, campaign, screen or moving image.
+        </p>
+
+        <div class="about__columns mono">
+          <div>
+            <span class="about__label">Capabilities</span>
+            <p>Art direction<br>Graphic design<br>Motion design<br>Video<br>3D / Blender<br>Digital design</p>
+          </div>
+          <div>
+            <span class="about__label">Tools</span>
+            <p>Photoshop<br>Illustrator<br>After Effects<br>Premiere Pro<br>Blender<br>AI workflows</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact shell">
+      <p class="mono">Have a project, role or collaboration in mind?</p>
+      <a class="contact__link" href="mailto:hello@example.com">
+        Let's talk <span>↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer shell mono">
+    <span>© <span id="year"></span> Henrik Gystad</span>
+    <span>Designed & coded in Norway</span>
+  </footer>
+
+  <div class="cursor" aria-hidden="true">
+    <span>VIEW</span>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
